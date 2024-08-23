@@ -1,0 +1,66 @@
+/*----------------------
+     1. CSS Variables 
+-----------------------*/
+:root {
+    /*Color variables */
+    --black_900: #000000;
+    --black_900_3f: #0000003f;
+    --black_900_7f: #0000007f;
+    --blue_500: #2094ff;
+    --blue_800: #0856cc;
+    --blue_800_af: #0856ccaf;
+    --blue_900: #0242a4;
+    --blue_a200_5b: #4786e65b;
+    --blue_gray_400: #868686;
+    --cyan_400: #27c3ba;
+    --cyan_800: #0283a0;
+    --gray_500: #a6a6a6;
+    --gray_700_84: #66666684;
+    --indigo_200: #a7bfe1;
+    --indigo_a200: #717fff;
+    --white_a700: #ffffff;
+    --black_600: #656d76;
+    --gray_shadow: #00000029;
+    /*------Shadow variables------*/
+    --shadow-xs: 0 4px 4px 0 #0000003f;
+    --shadow-sm: 0 4px 4px 0 #0000007f;
+    --shadow-md: 0 0 13px 5px #00000029;
+    /*------Border radius variables------*/
+    --radius-xs: 2px;
+    --radius-sm: 5px;
+    --radius-md: 8px;
+    --radius-lg: 10px;
+    --radius-xl: 14px;
+    --radius-2xl: 20px;
+    --radius-3xl: 22px;
+    --radius-4xl: 34px;
+    --radius-5xl: 40px;
+    --radius-6xl: 52px;
+
+    --space-xs: 4px;
+    --space-sm: 6px;
+    --space-md: 8px;
+    --space-lg: 10px;
+    --space-xl: 12px;
+    --space-2xl: 14px;
+    --space-3xl: 16px;
+    --space-4xl: 18px;
+    --space-5xl: 20px;
+    --space-6xl: 24px;
+    --space-7xl: 26px;
+    --space-8xl: 30px;
+    --space-9xl: 32px;
+    --space-10xl: 40px;
+    --space-11xl: 46px;
+    --space-12xl: 48px;
+}
+
+/*----------------------
+     2. CSS Untility 
+-----------------------*/
+.flex-col-center-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,300 @@
+/*----------------------
+     1. Button CSS  
+-----------------------*/
+.ui.button.round {
+    border-radius: var(--radius-2xl);
+}
+
+.ui.button.size-2xl {
+    height: 70px;
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-5xl);
+    font-size: 17px;
+}
+
+.ui.button.size-sm {
+    height: 38px;
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+}
+
+.ui.button.size-xs {
+    height: 38px;
+    padding-left: 34px;
+    padding-right: 34px;
+    font-size: 20px;
+}
+
+.ui.button.size-lg {
+    height: 42px;
+    padding-left: var(--space-8xl);
+    padding-right: var(--space-8xl);
+    font-size: 15px;
+}
+
+.ui.button.size-xl {
+    height: 50px;
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
+}
+
+.ui.button.size-md {
+    height: 42px;
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+}
+
+.ui.button.fill.white_a700 {
+    background-color: var(--white_a700);
+    color: var(--blue_800);
+}
+
+.ui.button.fill.indigo_a200 {
+    background-color: var(--indigo_a200);
+}
+
+.ui.button.fill.blue_800 {
+    background-color: var(--blue_800);
+    color: var(--white_a700);
+}
+
+.ui.button.fill.gray_700_84 {
+    background-color: var(--gray_700_84);
+}
+
+.ui.button {
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+/*----------------------
+     2. Text CSS  
+-----------------------*/
+.ui.input.square {
+    border-radius: 0px;
+}
+
+.ui.input.size-xs {
+    height: 46px;
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
+    font-size: 22px;
+}
+
+.ui.input.ui.button.fill.white_a700 {
+    background-color: var(--white_a700);
+    color: var(--black_900_7f);
+}
+
+.ui.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: text;
+    color: var(--black_900_7f);
+    letter-spacing: 2.42px;
+    font-size: 22px;
+    background-color: var(--white_a700);
+    border: 1px solid var(--black_900_7f);
+}
+
+/*----------------------
+     3. Selectbox CSS  
+-----------------------*/
+.ui.selectbox.square {
+    border-radius: 0px;
+}
+
+.ui.selectbox.size-xs {
+    height: 46px;
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-6xl);
+    font-size: 20px;
+}
+
+.ui.selectbox.fill.white_a700 {
+    background-color: var(--white_a700);
+    color: var(--black_900_7f);
+}
+
+.ui.selectbox {
+    display: flex;
+}
+
+/*----------------------
+     4. Checkbox CSS  
+-----------------------*/
+.ui.checkbox.size-xs {
+    height: 20px;
+    width: 20px;
+    border-radius: var(--radius-sm);
+}
+
+.ui.checkbox.size-primary {
+    accent-color: #000000;
+    border: 1px solid var(--black_900);
+}
+
+.ui.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+cursor: pointer;
+}
+
+/*----------------------
+     5. Text CSS  
+-----------------------*/
+.ui.text.size-textxs {
+    font-size: 9px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ui.text.size-texts {
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ui.text.size-textmd {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ui.text.size-textlg {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 550px) {
+        font-size: 13px;
+    }
+}
+
+.ui.text.size-textxl {
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 550px) {
+        font-size: 14px;
+    }
+}
+
+.ui.text.size-text2xl {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 550px) {
+        font-size: 15px;
+    }
+}
+
+.ui.text.size-text3xl {
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 550px) {
+        font-size: 16px;
+    }
+}
+
+.ui.text.size-text4xl {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 550px) {
+        font-size: 17px;
+    }
+}
+
+.ui.text.size-text5xl {
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 550px) {
+        font-size: 18px;
+    }
+}
+
+.ui.text.size-text6xl {
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 21px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 19px;
+    }
+}
+
+.ui.text.size-text7xl {
+    font-size: 25px;
+    font-weight: 300;
+    font-style: normal;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 23px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 21px;
+    }
+}
+
+.ui.text.size-text8xl {
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 26px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 23px;
+    }
+}
+
+.ui.text.size-text9xl {
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 38px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 34px;
+    }
+}
+
+.ui.text {
+    color: var(--black_900);
+    font-family: Raleway;
+}
+
+/*----------------------
+     6. Container CSS  
+-----------------------*/
+.container-xs {
+    max-width: 1260px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
