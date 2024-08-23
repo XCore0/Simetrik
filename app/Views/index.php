@@ -12,10 +12,10 @@
     <!-- SweetAlert2 CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/suiper@11.0.6/suiper.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/DestopOne.css">
-    <link rel="stylesheet" type="text/css" href="./css/components.css">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('css/DestopOne.css'); ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('css/components.css'); ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('css/index.css'); ?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('css/styles.css'); ?>">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
@@ -926,8 +926,8 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./js/script.js"></script>
-    <script src="./js/script1.js"></script>
+    <script src="<?= base_url('js/script.js'); ?>"></script>
+    <script src="<?= base_url('js/script1.js'); ?>"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
