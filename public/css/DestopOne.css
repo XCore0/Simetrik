@@ -520,13 +520,13 @@
 
 .swiper-slider img {
     width: 100%;
-    max-width: 500px;
+    max-width: 450px;
     /* Menetapkan lebar gambar */
     height: auto;
     /* Menjaga proporsi gambar */
     object-fit: cover;
     /* Menyesuaikan gambar dalam kontainer */
-    margin: 0 25px 0 120px;
+    margin: 0 110px;
     /* Memberi jarak horizontal antar gambar */
     /* Jarak antar gambar */
 

@@ -125,8 +125,8 @@ $(document).ready(function() {
             }
         });
 
-         // Animation for .support-section_image--cs and .support-section_image--tutorial
-         $(".support-section_image--cs, .support-section_image--tutorial").each(function() {
+         // Animation for .support-section__image--cs and .support-section__image--tutorial
+         $(".support-section__image--cs, .support-section__image--tutorial").each(function() {
             var elementOffset = $(this).offset().top;
 
             console.log('Element:', $(this), 'Offset:', elementOffset);
@@ -166,7 +166,7 @@ $(document).ready(function() {
         });
 
         // Animasi untuk elemen .stack_image--secondary, .rowuser, dan .details_health
-        $(".stack_image--secondary, .rowuser, .details_health, .details_time, .rowuser, .details_social").each(function() {
+        $(".stack_image--secondary, .rowuser, .details_health").each(function() {
             var elementOffset = $(this).offset().top;
             console.log('Element:', $(this), 'Offset:', elementOffset);
 
@@ -201,7 +201,7 @@ $(document).ready(function() {
                 items.forEach((item, index) => {
                     setTimeout(() => {
                         item.style.opacity = '1';
-                        dropdownContent.style.maxHeight = '${(index + 1) * 50}px'; // Tambah tinggi sesuai item yang muncul
+                        dropdownContent.style.maxHeight = `${(index + 1) * 50}px`; // Tambah tinggi sesuai item yang muncul
                     }, index * 10); // 10ms delay untuk setiap item
                 });
         
@@ -238,7 +238,7 @@ $(document).ready(function() {
 
         function startScrolling() {
             currentScrollPosition -= scrollAmount;
-            imageGrid.style.transform = 'translateX(${currentScrollPosition}px)';
+            imageGrid.style.transform = `translateX(${currentScrollPosition}px)`;
 
             if (Math.abs(currentScrollPosition) >= imageGrid.scrollWidth / 2) {
                 currentScrollPosition = 0;
@@ -252,8 +252,8 @@ $(document).ready(function() {
                 var wScroll = $(window).scrollTop();
                 var windowHeight = $(window).height();
         
-                // Animation for images with class .row_image--tertiary and .images_image--primary
-                $(".row_image--tertiary, .images_image--primary").each(function() {
+                // Animation for images with class .row__image--tertiary and .images__image--primary
+                $(".row__image--tertiary, .images__image--primary").each(function() {
                     var elementOffset = $(this).offset().top;
         
                     if (wScroll + windowHeight > elementOffset) {
@@ -271,8 +271,8 @@ $(document).ready(function() {
                     }
                 });
         
-                // Animation for images with class .column_image--quaternary, .columnimage--quinary, .stackimage--senary, .column_image--septenary
-                $(".column_image--quaternary, .columnimage--quinary, .stackimage--senary, .column_image--septenary").each(function() {
+                // Animation for images with class .column__image--quaternary, .column__image--quinary, .stack__image--senary, .column__image--septenary
+                $(".column__image--quaternary, .column__image--quinary, .stack__image--senary, .column__image--septenary").each(function() {
                     var elementOffset = $(this).offset().top;
         
                     if (wScroll + windowHeight > elementOffset) {
@@ -290,8 +290,8 @@ $(document).ready(function() {
                     }
                 });
         
-                // Animation for images with class .stack_image--secondary, .rowuser, and .details_health
-                $(".stack_image--secondary, .rowuser, .details_health").each(function() {
+                // Animation for images with class .stack__image--secondary, .rowuser, and .details__health
+                $(".stack__image--secondary, .rowuser, .details__health").each(function() {
                     var elementOffset = $(this).offset().top;
         
                     if (wScroll + windowHeight > elementOffset) {
@@ -314,6 +314,19 @@ $(document).ready(function() {
             runAnimations();
             $(window).on("scroll", runAnimations);
         });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var swiper = new Swiper('#slider1', {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                navigation: {
+                    nextEl: '#slider1-control-next',
+                    prevEl: '#slider1-control-prev',
+                },
+                loop: true,
+            });
+        });
+        
         
 
         startScrolling();
@@ -328,4 +341,6 @@ $(document).ready(function() {
     $(window).on('scroll', function() {
         runAnimations();
     });
+    
+
 });

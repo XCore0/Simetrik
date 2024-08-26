@@ -926,8 +926,8 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="<?= base_url('js/script.js'); ?>"></script>
-    <script src="<?= base_url('js/script1.js'); ?>"></script>
+    <script src="<?=base_url('js/script.js')?>"></script>
+    <script src="<?=base_url('js/script1.js')?>"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
