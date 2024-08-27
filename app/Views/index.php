@@ -12,7 +12,7 @@
     <!-- SweetAlert2 CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/suiper@11.0.6/suiper.min.css">
-    <link rel="stylesheet" type="text/css" href="https://XCore0.github.io/Simetrik/public/css/DestopOne.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('public/css/DestopOne.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('public/css/components.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?= base_url('public/css/index.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('public/css/style.css') ?>">
