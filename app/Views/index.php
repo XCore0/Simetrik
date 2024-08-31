@@ -44,7 +44,7 @@
                         <ul class="header__menu">
                             <li class="dhi-group">
                                 <div class="header__menu-item">
-                                    <p class="header__menu-item-text ui text size-textmd">TIPE FASILITAS KESEHATAN</p>
+                                    <p class="header__menu-item-text ui text size-textmd">TIPEs POle FASILITAS KESEHATAN</p>
                                     <img src="public/images/Group 3.png" alt="Facility Arrow"
                                         class="header__menu-item-icon" />
                                 </div>
