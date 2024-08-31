@@ -659,7 +659,7 @@
     z-index: 4;
     position: sticky;
     top: 0;
-    background-color: var(--white_a700);
+    background-color: black;
     box-shadow: var(--shadow-xs);
     align-self: stretch;
     margin: 0;
